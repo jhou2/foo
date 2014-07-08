@@ -1,4 +1,5 @@
 foo
 ===
 
-Repository to test review ninja features on
+We use this repository to test review ninja features involving the status api
+and other interaction with github repositories.
