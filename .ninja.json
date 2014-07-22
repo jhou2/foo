@@ -11,14 +11,31 @@
             "description": "Reject",
             "label": "-1",
             "value": -1
+        },
+        {
+            "color": "#008000",
+            "description": "Pass",
+            "label": "Pass",
+            "value": "pass"
+        },
+        {
+            "color": "#800000",
+            "description": "Veto",
+            "label": "Veto",
+            "value": "veto"
         }
     ],
     "approval": {
         "approved": 3,
         "rejected": -3
     },
+    "branches": [
+        "feature/*",
+        "release",
+        "master",
+    ],
     "collaborators": [
         "dtornow",
         "flower-pot"
-    ]    
+    ]
 }
