@@ -1,7 +1,7 @@
 
 function test() {
 
-  hello = 'world';
+  var hello = 'world';
 
   return hello;
 }
