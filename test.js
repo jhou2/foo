@@ -2,6 +2,8 @@
 // Diff File Directive
 // *****************************************************
 
+// add comment on the top
+
 module.directive('diff', ['$stateParams', '$HUB', '$RPC', 'Issue',
     function($stateParams, $HUB, $RPC, Issue) {
         return {
@@ -66,6 +68,8 @@ module.directive('diff', ['$stateParams', '$HUB', '$RPC', 'Issue',
 
                             
                             // var chunk = chunks.shift();
+                            
+                            // comment in the middle
 
                             index = 0;
 
@@ -98,6 +102,8 @@ module.directive('diff', ['$stateParams', '$HUB', '$RPC', 'Issue',
                 // 
                 // actions
                 //
+                
+                // comment at the end
 
                 scope.match = Issue.line;
 
