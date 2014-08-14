@@ -32,8 +32,6 @@ module.directive('diff', ['$stateParams', '$HUB', '$RPC', 'Issue',
 
                     if(scope.patch) {
 
-                        console.log('we are running this again...');
-
                         $RPC.call('files', 'get', {
                             user: $stateParams.user,
                             repo: $stateParams.repo,
@@ -66,9 +64,7 @@ module.directive('diff', ['$stateParams', '$HUB', '$RPC', 'Issue',
                                 index = index + 1;
                             }
 
-                            
-                            // var chunk = chunks.shift();
-                            
+                                                        
                             // comment in the middle
 
                             index = 0;
